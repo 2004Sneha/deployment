@@ -10,8 +10,7 @@ metadata:
                 alb.ingress.kubernetes.io/target-type: "ip"
 spec:
         rules:
-                - host: db.com
-                  http:
+                - http:
                           paths:
                                   - path: /
                                     pathType: Prefix
